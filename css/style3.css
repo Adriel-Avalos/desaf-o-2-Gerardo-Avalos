@@ -2,13 +2,14 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 header{
-    background-color: black;
+    background-color: #000000;
     width: 100%;
 }
 
 header img{
     height: 150px;
     margin-left: 90%;
+    border-radius: 100%;
 }
 nav a{
     font-size: 30px;
@@ -23,40 +24,16 @@ nav{
     justify-content: center;
     
 }
-aside{
-
-    height: 100px;
-    display:flex;
-justify-content: center;
 
 
-}
-
-.info:hover{
-    background-color: rgb(83, 122, 109);
-    transform: scale(1.05);
-
-}
 
 
-.info{
-    margin: 50px;
-    width:200px ;
-    height: 10px;
-    
-}
-
-.info img{
-    
-    width: 200px;
-    height: 250px;
-    
-}
 
 .ordenar{
-    margin-top: 30%;
-    background-color: #9F8757;
-
+    
+    background-color: #B7B0A9;
+    display: flex;
+    flex-direction: column;
   
     
 }
@@ -71,24 +48,34 @@ justify-content: center;
 .ordenar-3{
     display: flex;
     justify-content: center;
-    margin-left: 15%;
+    margin-left: 5%;
+    text-align: justify;
 }
 
 .ordenar-3 img{
-    width: 550px;
+    
+    width: 450px;
     margin: 30px;
 }
 
 
 
 .ordenar-3 p{
-    margin-top: 10%;
-    text-align: justify;
+   
+   margin-top: 10%;
     font-size: 25px;
-    margin-right: 25%;
+
+    
    
 }
 
+
+
+.boton {
+    
+    margin-left: 60%;
+    margin-bottom: 20%;
+}
 
 
 
@@ -100,16 +87,3 @@ footer{
     color: white;
 }
 
-.boton button{
-    margin-top: 5%;
-    width: 200px;
-    height: 70px;
-    border-radius: 40px;
-    margin-left: 25px;
-}
-    
-.boton a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
